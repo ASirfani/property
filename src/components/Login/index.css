@@ -1,0 +1,114 @@
+.imgBg {
+  background-image: url('../../../public/bglogo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F5;
+}
+
+.colorBg {
+  background-color: rgba(66, 78, 90, 0.8);
+  height: 100vh;
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login h2 {
+  font-family: 'Times New Roman', serif;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.login form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login form .loginbtn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #5FC2EB;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login form .loginbtn:hover {
+  background-color: #528EAA;
+}
+
+.login form .loginbtn:active {
+  background-color: #4C839D;
+}
+
+.login div {
+  display: flex;
+}
+
+.login div p {
+  margin-left:10px;
+  padding: 0;
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.login div p:hover {
+  color: #4caf50;
+}
+
+.option-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.option-user div {
+  display: flex;
+  align-items: center;
+  margin-right:10px;
+}
+
+.option-user div label {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.option-user input[type="radio"] {
+  margin-top: 6px;
+
+}
+
+.alertMsg p{
+  margin: 5px 10px;
+  font-weight: 500;
+
+}
+
+.alertMsg {
+  background-color: rgb(221, 77, 77);
+  border-radius: 20px;
+  position: absolute;
+  top: 10%;
+}

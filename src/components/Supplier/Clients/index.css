@@ -1,0 +1,54 @@
+/* Table.css */
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .table-container td.editable {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .table-container td.editable input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    border: none;
+  }
+  
+  .table-container td.editable input:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #aaa;
+  }
+  
+  .table-container td.editable .save-button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    display: none;
+  }
+  
+  .table-container td.editable:hover .save-button {
+    display: block;
+  }
+
+  .approve-button{
+    background-color: #5A6675;
+  
+  }
+  .approve-button:hover{
+    background-color: #3E4650;
+  
+  }

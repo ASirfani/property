@@ -1,0 +1,102 @@
+.add-client-container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .add-client-container h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 5px;
+  }
+
+  
+  button[type="submit"] {
+    background-color: #5A6675;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3E4650;
+   
+  }
+  
+  /* Optional: Add some additional styling to enhance the form layout */
+  .add-client-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-client-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-client-container .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-client-container .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .add-client-container .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .add-client-container button[type="submit"] {
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+  
+  .alert{
+    display: flex;
+    background-color: #45a049;
+    height: 50px;
+    position: absolute;
+    border-radius: 5px;
+    top: 2%;
+    left: 50% ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0.8;
+
+  }
+  .alert p{
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 10px 15px;
+  }
+
+  .approve-button {
+    background-color: #5A6675;
+  
+  }
+  .approve-button:hover{
+    background-color: #3E4650;
+  
+  }

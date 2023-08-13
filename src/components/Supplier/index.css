@@ -1,0 +1,32 @@
+/* Admin.css */
+
+.admin {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "sidebar main";
+    grid-template-columns: 200px  1fr;
+    grid-template-rows: auto  1fr;
+    min-height: 100vh ;
+    max-height:  100vh;
+    background-color: bisque;
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: red;
+}
+
+main {
+    grid-area: main;
+    background-color: #F4F5F9;
+    overflow-y: auto;
+}
+.dashboard {
+    background-color: #F4F5F9;
+}

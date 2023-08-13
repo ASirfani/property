@@ -1,0 +1,53 @@
+.money-receipt {
+    font-family: Arial, sans-serif;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .header p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .content h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+  }
+  
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  
